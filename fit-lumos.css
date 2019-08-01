@@ -212,8 +212,8 @@
   --md-char-color: #b4b4b4;
   --meta-content-color: #757575;
   --table-border-color: #b4b4b4;
-  --primary-color: #db4d52;
-  --primary-btn-border-color: #be2f34;
+  --primary-color: #428bca;
+  --primary-btn-border-color: #285e8e;
   --primary-btn-text-color: #333;
   --window-border: 1px solid #16161a;
   --active-file-bg-color: #16161a;
@@ -246,7 +246,7 @@ p {
 }
 
 a {
-  color: #db4d52;
+  color: var(--primary-color);
 }
 
 del {
@@ -270,7 +270,7 @@ blockquote::before {
   left: -2rem;
   height: 100%;
   width: .25rem;
-  background: #db4d52;
+  background: var(--primary-color);
 }
 
 code,
@@ -410,7 +410,7 @@ td, th {
 }
 
 #write ol > li, #write ul > li {
-  color: #db4d52;
+  color: var(--primary-color);
 }
 
 #write ol > li > *, #write ul > li > * {
@@ -492,12 +492,12 @@ td, th {
 }
 
 #write .md-grid-board a.md-active, #write .md-grid-board a:hover {
-  background: #db4d52;
+  background: var(--primary-color);
   color: #b4b4b4;
 }
 
 #write .md-grid-board tr[row='1'] a.md-active, #write .md-grid-board tr[row='1'] a:hover {
-  background: #be2f34;
+  background: var(--primary-btn-border-color);
   color: #b4b4b4;
 }
 
@@ -609,7 +609,7 @@ td, th {
 }
 
 #typora-quick-open #typora-quick-open-input input {
-  border-color: #db4d52;
+  border-color: var(--primary-color);
 }
 
 #typora-quick-open .ty-quick-open-category-title {
@@ -645,7 +645,7 @@ td, th {
 }
 
 .code-tooltip.md-f-tooltip a {
-  color: #db4d52;
+  color: var(--primary-color);
 }
 
 .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container), .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) *, .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) ol, .on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) ul {
@@ -730,7 +730,7 @@ td, th {
 
 #typora-sidebar .file-tree-node.file-library-file-node.active .file-node-background,
 #typora-sidebar .file-list-item.file-library-file-node.active {
-  border-left: 5px solid #db4d52;
+  border-left: 5px solid var(--primary-color);
 }
 
 #typora-sidebar .blink-area {
@@ -762,8 +762,8 @@ footer.ty-footer {
 }
 
 .form-control:focus {
-  border-color: #db4d52;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px #db4d52;
+  border-color: var(--primary-color);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 2px var(--primary-color);
 }
 
 .megamenu-opened header {
@@ -786,7 +786,7 @@ footer.ty-footer {
 }
 
 #megamenu-content .long-btn:hover {
-  border-color: #db4d52;
+  border-color: var(--primary-color);
   background: #202020;
   color: #fff !important;
 }
@@ -802,7 +802,7 @@ footer.ty-footer {
 }
 
 #recent-file-panel-action-btn:hover {
-  border-color: #db4d52;
+  border-color: var(--primary-color);
   background: #202020;
   color: #fff;
 }
@@ -860,15 +860,15 @@ footer.ty-footer {
 }
 
 .theme-preview-div:hover {
-  border: 4px solid #be2f34;
+  border: 4px solid var(--primary-btn-border-color);
 }
 
 .theme-preview-div.active, .theme-preview-div.active:hover {
-  border: 4px solid #db4d52;
+  border: 4px solid var(--primary-color);
 }
 
 .theme-preview-div.active i {
-  color: #db4d52;
+  color: var(--primary-color);
 }
 
 .cm-s-typora-default .cm-s-inner.CodeMirror-line {
