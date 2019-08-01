@@ -2,63 +2,77 @@
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
   font-weight: normal;
-  src: local("Avenir Next LT Pro Regular"), url("./ursine/AvenirNextLTPro-Regular.woff") format("woff");
+  src: local("Avenir Next LT Pro Regular"), url("./fit/AvenirNextLTPro-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: italic;
   font-weight: normal;
-  src: local("Avenir Next LT Pro It"), url("./ursine/AvenirNextLTPro-Italic.woff") format("woff");
+  src: local("Avenir Next LT Pro It"), url("./fit/AvenirNextLTPro-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
   font-weight: bold;
-  src: local("Avenir Next LT Pro Demi"), url("./ursine/AvenirNextLTPro-Demi.woff") format("woff");
+  src: local("Avenir Next LT Pro Demi"), url("./fit/AvenirNextLTPro-Demi.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Avenir Next LT Pro';
   font-style: italic;
   font-weight: bold;
-  src: local("Avenir Next LT Pro DemiIt"), url("./ursine/AvenirNextLTPro-DemiItalic.woff") format("woff");
+  src: local("Avenir Next LT Pro DemiIt"), url("./fit/AvenirNextLTPro-DemiItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: normal;
   font-weight: normal;
-  src: local("Adelle Light"), url("./ursine/Adelle-Light.woff") format("woff");
+  src: local("Adelle Light"), url("./fit/Adelle-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: italic;
   font-weight: normal;
-  src: local("Adelle Light Italic"), url("./ursine/Adelle-LightItalic.woff") format("woff");
+  src: local("Adelle Light Italic"), url("./fit/Adelle-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: normal;
   font-weight: bold;
-  src: local("Adelle SemiBold"), url("./ursine/Adelle-Semibold.woff") format("woff");
+  src: local("Adelle SemiBold"), url("./fit/Adelle-Semibold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Adelle';
   font-style: italic;
   font-weight: bold;
-  src: local("Adelle SemiBold Italic"), url("./ursine/Adelle-SemiBoldItalic.woff") format("woff");
+  src: local("Adelle SemiBold Italic"), url("./fit/Adelle-SemiBoldItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Cousine';
   font-style: normal;
   font-weight: normal;
-  src: local("Cousine Regular"), url("./ursine/Cousine-Regular.woff") format("woff");
+  src: local("Cousine Regular"), url("./fit/Cousine-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Halant';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Halant SemiBold"), url("./fit/Halant-SemiBold.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'Halant';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Halant Bold"), url("./fit/Halant-Bold.ttf") format("truetype")
 }
 
 /* CodeMirror Dracula theme */
@@ -224,7 +238,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
 }
 
 p {
@@ -247,7 +261,7 @@ mark {
 blockquote {
   position: relative;
   margin: 1rem 0 1rem 2rem;
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
 }
 
 blockquote::before {
@@ -306,6 +320,14 @@ td, th {
 
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre {
   width: auto;
+}
+
+#write h1 {
+  font-weight: 700;
+}
+
+#write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre {
+  font-weight: 500;
 }
 
 #write h1::before, #write h2::before, #write h3::before, #write h4::before, #write h5::before, #write h6::before {
@@ -528,7 +550,7 @@ td, th {
 }
 
 #write .md-toc-h1 {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
   font-size: 1.3rem;
 }
 
@@ -537,7 +559,7 @@ td, th {
 }
 
 #write .md-footnote {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
   font-size: .8em;
   border: 1px solid #d0d0d0;
   padding: 0 4px;
@@ -651,12 +673,12 @@ td, th {
 }
 
 #typora-sidebar .sidebar-tabs {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
   border-bottom: 1px solid #19191c;
 }
 
 #typora-sidebar .file-list-item-file-name {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
   font-size: 1.2em;
 }
 
@@ -688,12 +710,12 @@ td, th {
 }
 
 #typora-sidebar #outline-content .outline-h1 > .outline-item {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
 }
 
 #typora-sidebar .outline-title-wrapper,
 #typora-sidebar .outline-item-wrapper.outline-h1 > .outline-item {
-  font-family: 'Adelle', 'Times New Roman', serif;
+  font-family: 'Halant', 'Adelle', 'Times New Roman', serif;
 }
 
 #typora-sidebar .file-library-node,
@@ -865,7 +887,7 @@ footer.ty-footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("ursine/night.png") no-repeat 45% 90% transparent;
+  background: url("fit/night.png") no-repeat 45% 90% transparent;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1057,6 +1079,6 @@ sup.md-footnote {
 }
 
 #write > p:first-child:not(:only-child)::before, #write > p:only-child::before {
-  background: url("ursine/day.png") no-repeat 55% 90% transparent;
+  background: url("fit/day.png") no-repeat 55% 90% transparent;
   background-size: cover;
 }
