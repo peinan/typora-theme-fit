@@ -353,7 +353,7 @@ td, th {
 }
 
 #write h1::before {
-  content: 'H1';
+  content: '#';
   bottom: .45rem;
 }
 
@@ -363,7 +363,7 @@ td, th {
 }
 
 #write h2::before {
-  content: 'H2';
+  content: '##';
   bottom: .2rem;
 }
 
@@ -373,7 +373,7 @@ td, th {
 }
 
 #write h3::before {
-  content: 'H3';
+  content: '###';
   bottom: .18rem;
 }
 
@@ -383,7 +383,7 @@ td, th {
 }
 
 #write h4::before {
-  content: 'H4';
+  content: '####';
   bottom: .15rem;
 }
 
@@ -397,11 +397,11 @@ td, th {
 }
 
 #write h5::before {
-  content: 'H5';
+  content: '#####';
 }
 
 #write h6::before {
-  content: 'H6';
+  content: '######';
 }
 
 #write ol, #write ul {
